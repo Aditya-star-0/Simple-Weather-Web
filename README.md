@@ -15,7 +15,7 @@ I created this project while learning API setup using JavaScript.
 
 ## 🚀 Live Demo
 
-[Click Here to Open](https://aditya-star-0.github.io/Simple-Weather-Web/)
+https://aditya-star-0.github.io/Simple-Weather-Web/
 
 ---
 
@@ -58,7 +58,7 @@ cd Simple-Weather-Web
 Open `script.js` and replace:
 
 ```javascript
-const apiKey = "YOUR_API_KEY";
+const apiKey = "3d4149fb1809c6a40853a0e379489f10";
 ```
 
 with your OpenWeather API key.
@@ -75,7 +75,7 @@ Open `index.html` in your browser.
 ## 📂 Project Structure
 
 ```bash
-Simple-Weather-App/
+Simple-Weather-Web/
 │
 ├── index.html
 ├── style.css
