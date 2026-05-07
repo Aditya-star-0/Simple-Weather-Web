@@ -1,50 +1,107 @@
-# Simple Weather App
+# 🌦️ Simple Weather Web
 
 A clean and modern weather application that provides real-time weather information and a 5-day forecast for any city.
-I was learning API setup using JavaScript, and for practice, I created this weather web application.
-## Features
 
-- **Real-time Weather Data**: Get current temperature, humidity, wind speed, sunrise, and sunset times.
-- **5-Day Forecast**: View weather predictions for the next 5 days with icons and temperatures.
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
-- **Modern UI**: Glassmorphism design with a beautiful gradient background.
+I created this project while learning API setup using JavaScript.
 
-## How to Use
+---
 
-1. Open `index.html` in your web browser.
-2. Enter the name of a city in the search box.
-3. Click the "Search" button to fetch weather data.
-4. View the current weather details and 5-day forecast.
+## 📸 Preview
 
-## Technologies Used
+![Weather Web Screenshot](images/page_1.png)
+![Weather Web Screenshot](images/page_2.png)
 
-- **HTML5**: Structure of the web page.
-- **CSS3**: Styling and responsive design.
-- **JavaScript**: Fetching data from the OpenWeather API and dynamic content updates.
-- **OpenWeather API**: Provides weather data (requires an API key).
+---
 
-## Setup
+## 🚀 Live Demo
 
-1. Clone or download the project files.
-2. Obtain a free API key from [OpenWeather](https://openweathermap.org/api).
-3. Replace the `apiKey` variable in `script.js` with your API key.
-4. Open `index.html` in a web browser.
+[Click Here to Open](https://aditya-star-0.github.io/Simple-Weather-Web/)
 
-## API Key
+---
 
-The app uses the OpenWeather API. Sign up for a free account to get an API key. The free tier allows 1,000 calls per day.
+## ✨ Features
 
-## Browser Support
+- Real-time weather information
+- 5-day weather forecast
+- Humidity, wind speed, sunrise & sunset
+- Responsive design
+- Modern glassmorphism UI
+- Works on desktop and mobile devices
 
-- Chrome (recommended)
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- OpenWeather API
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Aditya-star-0/Simple-Weather-Web.git
+```
+
+### 2️⃣ Open Project Folder
+
+```bash
+cd Simple-Weather-Web
+```
+
+### 3️⃣ Add API Key
+
+Open `script.js` and replace:
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+with your OpenWeather API key.
+
+Get your free API key from:
+https://openweathermap.org/api
+
+### 4️⃣ Run the Project
+
+Open `index.html` in your browser.
+
+---
+
+## 📂 Project Structure
+
+```bash
+Simple-Weather-App/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    └── page_1.png
+    └── page_2.png
+```
+
+---
+
+## 🌐 Browser Support
+
+- Chrome
 - Firefox
-- Safari
 - Edge
+- Safari
 
-## Contributing
+---
 
-Feel free to fork the project and submit pull requests for improvements.
+## 🤝 Contributing
 
-## License
+Contributions are welcome. Feel free to fork this repository and improve the project.
 
-This project is open-source and available under the MIT License.
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.

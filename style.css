@@ -9,7 +9,7 @@
 /* Background */
 body {
   min-height: 100vh;
-  background: linear-gradient(180deg, #0b3d91 0%, #054f73 45%, #101315 100%), url("farmer-bg.jpg") no-repeat center center/cover;
+  background: linear-gradient(180deg, #0b3d91 0%, #054f73 45%, #101315 100%), url("/images/farmer-bg.jpg") no-repeat center center/cover;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
