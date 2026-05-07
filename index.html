@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Simple Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Enter city name..." />
+      <button id="search-btn">🔍 Search</button>
+    </div>
+
+    <div class="weather-card">
+      <h2 id="city-name">--</h2>
+      <p id="weather-desc">--</p>
+      <h1 id="temperature">--°C</h1>
+
+      <div class="details">
+        <p>💧 Humidity: <span id="humidity">--</span></p>
+        <p>🌬 Wind: <span id="wind">--</span></p>
+        <p>🌞 Sunrise: <span id="sunrise">--</span></p>
+        <p>🌇 Sunset: <span id="sunset">--</span></p>
+      </div>
+    </div>
+
+    <div class="forecast-section">
+      <h2>📅 5-Day Forecast</h2>
+      <div id="forecast" class="forecast-container"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with 💚 | Powered by OpenWeather</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
