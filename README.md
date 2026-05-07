@@ -1,7 +1,7 @@
 # Simple Weather App
 
 A clean and modern weather application that provides real-time weather information and a 5-day forecast for any city.
-
+I was learning API setup using JavaScript, and for practice, I created this weather web application.
 ## Features
 
 - **Real-time Weather Data**: Get current temperature, humidity, wind speed, sunrise, and sunset times.
